@@ -9,11 +9,6 @@ class TextTokenize:
         self.words = self.wct.tokenize(self.text)
         self.length = len(self.words)
 
-    def get_words(self):
-        return self.words
-
-    def get_length(self):
-        return self.length
 
     def get_word(self, num):
         try:
